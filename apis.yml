@@ -1,7 +1,11 @@
 aid: mozi
 name: Mozi
-description: Mozi is a company surfaced as a portfolio company of obvious-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Mozi is a private social network mobile app founded by Twitter and Medium co-founder Ev Williams
+  and Molly DeWolf Swenson, and backed by Obvious Ventures. Rather than public profiles or follower counts,
+  Mozi privately matches your phone contacts so you learn when friends are in the same city, attending the
+  same events, or checking in nearby — designed to spark in-person "social serendipity" and get people off
+  their screens. Launched in December 2024 and available in 135+ countries, Mozi is a consumer iOS/Android
+  application with no public developer program, API, or SDK surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/mozi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +13,30 @@ x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://mozi.app/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Social Network
+- Consumer App
+- Mobile
+- Privacy
+- Contacts
+- Events
+- Location
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mozi-domain-security.yml
 - type: Website
   url: https://mozi.app
+- type: PrivacyPolicy
+  url: https://mozi.app/privacy-policy
+- type: TermsOfService
+  url: https://mozi.app/terms-of-use
+- type: Support
+  url: https://mozi.app/faqs
+- type: SignUp
+  url: https://tinyurl.com/mozi-home-page
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
