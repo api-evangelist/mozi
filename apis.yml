@@ -35,6 +35,15 @@ tags:
 - Mobile
 - Privacy
 - Contacts
+- Event
+- Location
+tags_raw:
+- Company
+- Social Network
+- Consumer App
+- Mobile
+- Privacy
+- Contacts
 - Events
 - Location
 apis: []
